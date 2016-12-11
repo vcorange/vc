@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
    
-    <title>粤顺驾校,粤顺学车,深圳学车</title>
+    <title>学车在深圳,选粤顺</title>
      <meta name="keywords" content="粤顺驾校,粤顺学车,深圳学车,深圳驾校,学车,小车,汽车,深圳驾校报名,shenzhenjiaxiao,jiaxiao,xueche,yueshunjiaxiao,yueshun,shenzhenxueche,shenzhen"/>
      <meta name="description" content="粤顺驾校,粤顺学车,深圳学车,深圳驾校,学车,小车,汽车,深圳驾校报名,shenzhenjiaxiao,jiaxiao,xueche,yueshunjiaxiao,yueshun,shenzhenxueche,shenzhen"/>
     
@@ -15,8 +15,39 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="stylesheets/xueche.css">
 	<div id="heady" style="display: none;">
-   	<img src="images/heady.jpg" />
-</div>
+     	<img src="images/heady.jpg" />
+    </div>
+	  <style type="text/css">
+	      #img1{
+			  width: 200px;
+			  height: 200px;
+		  }
+		  #divimg{ 
+		     width:201px;
+			 height:201px;
+		     display:none;
+			 position:absolute;
+			 left:780px;
+			 bottom:-2240px;
+		  }
+	  
+	  </style>
+	  <script type="text/javascript">
+	  function testout(){
+	                    document.getElementById("divimg").style.display='none';  
+	                 }
+	  function testover(){
+	                    $divimg =  document.getElementById("divimg");
+						 $catid =  document.getElementById("catid");
+	                    $xleft = catid.getBoundingClientRect().left;
+					    //$tp =catid.getBoundingClientRect().top;
+						$divimg.style.display="block";
+						$divimg.style.position = "absolute" ;
+						$divimg.style.left ="780px";
+						$divimg.style.bottom="-2240px";
+	                    //document.getElementById("divimg").style.display='none';  
+	  }
+	  </script>
   </head>
   <body>
   <!--budu share -->
@@ -32,6 +63,8 @@
       <a href="http://www.xueche168.vip" class="btn">您身边的互联网驾校</a>
     </section>
 
+	
+	
     <section class="main-content">
       <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>欢迎您来到粤顺驾校</h3>
@@ -43,7 +76,7 @@
 <h3>
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>粤顺驾校分布情况</h3>
 
-<p>&#12288;&#12288;欢迎光临深圳市粤顺驾校，深圳市粤顺驾校电话：18902430899， 深圳市粤顺驾校怎么样？价格贵不贵？深圳市粤顺驾校好不好？且慢慢道来，深圳市粤顺驾校地址：南山、香蜜湖、福永、沙井、塘尾、鹤州、后亭、西乡、深圳北、清湖、民治、观澜、公明、坂田、布吉、平湖、吉祥、坪山等深圳各区5公里内均有训练场。</p>
+<p>&#12288;&#12288;欢迎光临深圳市粤顺驾校，深圳市粤顺驾校服务电话：18902430899， 深圳市粤顺驾校怎么样？价格贵不贵？深圳市粤顺驾校好不好？且慢慢道来，深圳市粤顺驾校地址：南山、香蜜湖、福永、沙井、塘尾、鹤州、后亭、西乡、深圳北、清湖、民治、观澜、公明、坂田、布吉、平湖、吉祥、坪山等深圳各区5公里内均有训练场。</p>
 
 <h3>
 <a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>深圳记时班：原价3880元 ，特价1880元</h3>
@@ -120,7 +153,7 @@
     
 	<img src="images/110.gif" align="top" style="padding:0;margin:0" />
 	</p>
-	-->
+	-->    
 		  <table id="table1" height="400" width="400">
 			<tr><td>联系人员：</td><td>李老师</td>
 			
@@ -133,10 +166,16 @@
 			<tr><td rowspan="2"><img src="images/110.gif" align="top" style="padding:0;margin:0" /></td>
 			<tr></tr>
 			</tr>
+			
 		  </table>
+	<div id="divimg"><img  id="img1" src="images/vanchengrowe.gif" /></div> 	  
+	
 	<a href="http://www.xueche168.vip">深圳市粤顺驾校网</a> &#12288; &#12288;持续更新中......
+	
 	<br />
     <br />
+	
+	
 	<!-- JiaThis Button BEGIN -->
 	<div class="jiathis_style">
 		<span class="jiathis_txt">分享到：</span>
@@ -150,10 +189,16 @@
 	<!-- JiaThis Button END -->
 	  
 	  <br/>
-	  
+	   
 	  <footer class="site-footer">
 	    <center>
-		 <span class="site-footer-owner"><a href="http://www.xueche168.vip">技术支持</a>联系qq:602340634</a>.<br></span>
+		 <!--<span class="site-footer-owner"><a href="http://www.xueche168.vip">技术支持</a>联系微信：--点我--.<br></span> 
+		 -->
+		 <span class="site-footer-owner" id="spanimg" onmouseout="testout();" onmouseover="testover();">
+		       <a href="http://www.xueche168.vip">技术支持</a>
+		       <label id="catid">联系微信：--点我--</label>
+			    
+	    </span>
         <span class="site-footer-owner"><a href="http://www.xueche168.vip">xueche168.vip  (学车一路发)</a> is Designed by <a href="http://www.xueche168.vip">VanchengRowe</a>.<br></span>
 		   
 
